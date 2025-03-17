@@ -60,6 +60,7 @@ function Survey({ handleSurveySubmit }) {
     console.log('submitting');
 
     await axios
+      //${window.location.origin} for deplyment
       .post(`${window.location.origin}/survey/`, {
         firstName: firstName,
         lastName: lastName,

@@ -70,7 +70,7 @@ const parseWhyObject = (obj) => {
       reasons.push(`Fast Payout Time`);
     }
     if (item === 'allDayService' && obj[item]) {
-      reasons.push(`24/7 Service` && obj[item]);
+      reasons.push(`24/7 Service`);
     }
     if (item === 'companyMandated' && obj[item]) {
       reasons.push(`Company Mandated`);
